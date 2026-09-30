@@ -1,0 +1,193 @@
+########################################
+# Program: needle
+# Rundate: Fri 18 Sep 2026 01:31:00
+# Commandline: needle
+#    -asequence /jetstream2/scratch/main/jobs/79840535/inputs/dataset_f5cf70fa-e551-4639-ad28-94c588897b9b.dat
+#    -bsequence /jetstream2/scratch/main/jobs/79840535/inputs/dataset_03cd4216-65cb-469e-8af5-66ebd8501163.dat
+#    -outfile /jetstream2/scratch/main/jobs/79840535/outputs/dataset_0ee87b6d-25cf-4826-87dd-7e871381fbe3.dat
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -brief yes
+#    -aformat3 srspair
+#    -auto
+# Align_format: srspair
+# Report_file: /jetstream2/scratch/main/jobs/79840535/outputs/dataset_0ee87b6d-25cf-4826-87dd-7e871381fbe3.dat
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NM_007294.4_cds_NP_009225.1_1_1
+# 2: BRCA1_c.500delC_protein_trimmed
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1913
+# Identity:     172/1913 ( 9.0%)
+# Similarity:   177/1913 ( 9.3%)
+# Gaps:        1730/1913 (90.4%)
+# Score: 826.5
+# 
+#
+#=======================================
+
+NM_007294.4_c      1 MDLSALRVEEVQNVINAMQKILECPICLELIKEPVSTKCDHIFCKFCMLK     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+BRCA1_c.500de      1 MDLSALRVEEVQNVINAMQKILECPICLELIKEPVSTKCDHIFCKFCMLK     50
+
+NM_007294.4_c     51 LLNQKKGPSQCPLCKNDITKRSLQESTRFSQLVEELLKIICAFQLDTGLE    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+BRCA1_c.500de     51 LLNQKKGPSQCPLCKNDITKRSLQESTRFSQLVEELLKIICAFQLDTGLE    100
+
+NM_007294.4_c    101 YANSYNFAKKENNSPEHLKDEVSIIQSMGYRNRAKRLLQSEPENPSLQET    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+BRCA1_c.500de    101 YANSYNFAKKENNSPEHLKDEVSIIQSMGYRNRAKRLLQSEPENPSLQET    150
+
+NM_007294.4_c    151 SLSVQLSNLGTVRTLR------TKQRI-----------------------    171
+                     ||||||||||||||||      .|:|:                       
+BRCA1_c.500de    151 SLSVQLSNLGTVRTLRKSSGYNLKRRLSTLNWDLILLKIPLIRQLIAVWE    200
+
+NM_007294.4_c    172 ----------QPQKTSVYI-----------ELGSDSSEDTVNKATYCSVG    200
+                               :|...||:|           .:.                 
+BRCA1_c.500de    201 IKNCYKSPLKEPGMKSVWILQKRLLVNFLRRM*-----------------    233
+
+NM_007294.4_c    201 DQELLQITPQGTRDEISLDSAKKAACEFSETDVTNTEHHQPSNNDLNTTE    250
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c    251 KRAAERHPEKYQGSSVSNLHVEPCGTNTHASSLQHENSSLLLTKDRMNVE    300
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c    301 KAEFCNKSKQPGLARSQHNRWAGSKETCNDRRTPSTEKKVDLNADPLCER    350
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c    351 KEWNKQKLPCSENPRDTEDVPWITLNSSIQKVNEWFSRSDELLGSDDSHD    400
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c    401 GESESNAKVADVLDVLNEVDEYSGSSEKIDLLASDPHEALICKSERVHSK    450
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c    451 SVESNIEDKIFGKTYRKKASLPNLSHVTENLIIGAFVTEPQIIQERPLTN    500
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c    501 KLKRKRRPTSGLHPEDFIKKADLAVQKTPEMINQGTNQTEQNGQVMNITN    550
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c    551 SGHENKTKGDSIQNEKNPNPIESLEKESAFKTKAEPISSSISNMELELNI    600
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c    601 HNSKAPKKNRLRRKSSTRHIHALELVVSRNLSPPNCTELQIDSCSSSEEI    650
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c    651 KKKKYNQMPVRHSRNLQLMEGKEPATGAKKSNKPNEQTSKRHDSDTFPEL    700
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c    701 KLTNAPGSFTKCSNTSELKEFVNPSLPREEKEEKLETVKVSNNAEDPKDL    750
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c    751 MLSGERVLQTERSVESSSISLVPGTDYGTQESISLLEVSTLGKAKTEPNK    800
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c    801 CVSQCAAFENPKGLIHGCSKDNRNDTEGFKYPLGHEVNHSRETSIEMEES    850
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c    851 ELDAQYLQNTFKVSKRQSFAPFSNPGNAEEECATFSAHSGSLKKQSPKVT    900
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c    901 FECEQKEENQGKNESNIKPVQTVNITAGFPVVGQKDKPVDNAKCSIKGGS    950
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c    951 RFCLSSQFRGNETGLITPNKHGLLQNPYRIPPLFPIKSFVKTKCKKNLLE   1000
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1001 ENFEEHSMSPEREMGNENIPSTVSTISRNNIRENVFKEASSSNINEVGSS   1050
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1051 TNEVGSSINEIGSSDENIQAELGRNRGPKLNAMLRLGVLQPEVYKQSLPG   1100
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1101 SNCKHPEIKKQEYEEVVQTVNTDFSPYLISDNLEQPMGSSHASQVCSETP   1150
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1151 DDLLDDGEIKEDTSFAENDIKESSAVFSKSVQKGELSRSPSPFTHTHLAQ   1200
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1201 GYRRGAKKLESSEENLSSEDEELPCFQHLLFGKVNNIPSQSTRHSTVATE   1250
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1251 CLSKNTEENLLSLKNSLNDCSNQVILAKASQEHHLSEETKCSASLFSSQC   1300
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1301 SELEDLTANTNTQDPFLIGSSKQMRHQSESQGVGLSDKELVSDDEERGTG   1350
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1351 LEENNQEEQSMDSNLGEAASGCESETSVSEDCSGLSSQSDILTTQQRDTM   1400
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1401 QHNLIKLQQEMAELEAVLEQHGSQPSNSYPSIISDSSALEDLRNPEQSTS   1450
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1451 EKAVLTSQKSSEYPISQNPEGLSADKFEVSADSSTSKNKEPGVERSSPSK   1500
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1501 CPSLDDRWYMHSCSGSLQNRNYPSQEELIKVVDVEEQQLEESGPHDLTET   1550
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1551 SYLPRQDLEGTPYLESGISLFSDDPESDPSEDRAPESARVGNIPSSTSAL   1600
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1601 KVPQLKVAESAQSPAAAHTTDTAGYNAMEESVSREKPELTASTERVNKRM   1650
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1651 SMVVSGLTPEEFMLVYKFARKHHITLTNLITEETTHVVMKTDAEFVCERT   1700
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1701 LKYFLGIAGGKWVVSYFWVTQSIKERKMLNEHDFEVRGDVVNGRNHQGPK   1750
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1751 RARESQDRKIFRGLEICCYGPFTNMPTDQLEWMVQLCGASVVKELSSFTL   1800
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1801 GTGVHPIVVVQPDAWTEDNGFHAIGQMCEAPVVTREWVLDSVALYQCQEL   1850
+                                                                       
+BRCA1_c.500de    233 --------------------------------------------------    233
+
+NM_007294.4_c   1851 DTYLIPQIPHSHY   1863
+                                  
+BRCA1_c.500de    233 -------------    233
+
+
+#---------------------------------------
+#---------------------------------------
